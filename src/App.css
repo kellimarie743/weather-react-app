@@ -1,38 +1,49 @@
 .App {
-  text-align: center;
+  margin: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search {
+  position: relative;
+  left: 12px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  max-width: 500px;
+  margin: 5px 6px 40px;
+  padding: 5px;
+  border: 2px solid #112d1f;
+  border-radius: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.container-fluid {
+  color: #112d1f;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  position: relative;
+  top: -40px;
 }
 
-.App-link {
-  color: #61dafb;
+.date,
+.daily-temp,
+.celsiusFahren,
+ul {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cityName {
+  color: #431d5a;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.date {
+  color: #112d1f;
+  font-size: 20px;
+}
+
+.credits {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  position: relative;
+  left: 13px;
 }

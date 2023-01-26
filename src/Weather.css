@@ -1,0 +1,38 @@
+.Weather .daily-temp {
+  color: #431d5a;
+  font-size: 55px;
+  font-weight: bolder;
+  position: relative;
+  left: 10px;
+}
+.Weather .celsiusFahren {
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+  left: -10px;
+}
+
+.Weather ul {
+  list-style: none;
+  color: #431d5b;
+  font-size: 15px;
+  position: relative;
+  top: -60px;
+  left: 70px;
+}
+
+.Weather .forecast-day {
+  font-size: 20px;
+}
+
+.Weather .weekly-forecast-temp {
+  color: #431d5a;
+}
+
+.Weather .weekly-forecast-high {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.Weather .weekly-forecast-low {
+  font-size: 15px;
+}
