@@ -45,6 +45,8 @@ export default function Weather() {
         <a href="https://app.netlify.com/teams/kellimarie743/sites">
           Netlify
         </a>{" "}
+        as well as Open Sourced on{" "}
+        <a href="https://github.com/kellimarie743/weather-react-app">Github</a>{" "}
         by Kelli Anderson
       </div>
     </div>
