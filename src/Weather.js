@@ -1,4 +1,5 @@
 import React from "react";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
@@ -33,20 +34,16 @@ export default function Weather() {
       </div>
 
       <div className="credits">
+        Hosted on{" "}
+        <a href="https://app.netlify.com/teams/kellimarie743/sites">Netlify</a>{" "}
+        with Open Sourced on{" "}
         <a
           href="https://github.com/kellimarie743/weather-react-app"
           target="_blank"
           rel="noreferrer"
         >
-          Open Source Code
-        </a>
-        <br />
-        Hosted on{" "}
-        <a href="https://app.netlify.com/teams/kellimarie743/sites">
-          Netlify
+          Github
         </a>{" "}
-        as well as Open Sourced on{" "}
-        <a href="https://github.com/kellimarie743/weather-react-app">Github</a>{" "}
         by Kelli Anderson
       </div>
     </div>
