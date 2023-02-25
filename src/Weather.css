@@ -31,7 +31,8 @@
   font-weight: bold;
   color: #0e2387;
   font-family: "Times New Roman", Times, serif;
-  font-size: 50px;
+  font-size: 55px;
+  margin-left: 5px;
 }
 
 .WeatherTemperature .unit {
