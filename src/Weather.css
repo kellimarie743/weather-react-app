@@ -27,23 +27,15 @@
   list-style: none;
 }
 
-.WeatherIcon .icon {
-  height: 64px;
-  margin-top: 20px;
-  margin-right: 10px;
-}
-
 .WeatherTemperature .temperature {
   font-weight: bold;
   color: #0e2387;
   font-family: "Times New Roman", Times, serif;
-  font-size: 60px;
-  font-weight: 400px;
+  font-size: 50px;
 }
 
 .WeatherTemperature .unit {
   color: blue;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
-  position: relative;
 }
