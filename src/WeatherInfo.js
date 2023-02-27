@@ -21,7 +21,7 @@ export default function WeatherInfo(props) {
             </div>
 
             <span className="temperature">
-              <WeatherTemperature celsius={props.data.temperature} />
+              <WeatherTemperature fahrenheit={props.data.temperature} />
             </span>
           </div>
         </div>

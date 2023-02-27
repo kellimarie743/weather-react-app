@@ -1,7 +1,7 @@
 .Weather {
   padding: 16px;
   border-radius: 5px;
-  border: 2px solid black;
+  border: 2px solid #013488;
   border-radius: 5px;
 }
 
@@ -10,7 +10,7 @@
 }
 
 .Weather h1 {
-  color: #0e2387;
+  color: #013488;
   font-size: 40px;
   font-weight: bold;
   font-family: "Times New Roman", Times, serif;
@@ -23,22 +23,23 @@
 }
 
 .Weather li {
-  color: #431d5a;
+  color: #022045;
   line-height: 20px;
+
   font-family: "Times New Roman", Times, serif;
   list-style: none;
 }
 
 .WeatherTemperature .temperature {
   font-weight: bold;
-  color: #0e2387;
+  color: #013488;
   font-family: "Times New Roman", Times, serif;
-  font-size: 55px;
+  font-size: 47px;
   margin-left: 5px;
 }
 
 .WeatherTemperature .unit {
-  color: blue;
+  color: #022045;
   font-size: 20px;
   font-family: "Times New Roman", Times, serif;
 }
