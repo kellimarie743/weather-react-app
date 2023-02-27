@@ -1,6 +1,8 @@
 .Weather {
   padding: 16px;
   border-radius: 5px;
+  border: 2px solid black;
+  border-radius: 5px;
 }
 
 .Weather form {
